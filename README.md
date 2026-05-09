@@ -103,7 +103,7 @@ src/
 <div align="center">
 
 <img
-  src="https://i.ibb.co/vCtsdjsq/dashboard.png"
+  src="[https://i.ibb.co/vCtsdjsq/dashboard.png](https://ibb.co/V04NSH2N)"
   width="1000"
 />
 

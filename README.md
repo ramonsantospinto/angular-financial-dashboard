@@ -103,8 +103,8 @@ src/
 <div align="center">
 
 <img
-  src="[https://i.ibb.co/vCtsdjsq/dashboard.png](https://ibb.co/V04NSH2N)"
-  width="1000"
+  src="https://i.ibb.co/RGwS0hzS/dashboard-financeiro.jpg"
+  width="100%"
 />
 
 </div>

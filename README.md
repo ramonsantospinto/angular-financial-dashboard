@@ -1,59 +1,181 @@
-# TesteAngular
+# 💰 Dashboard Financeiro - Angular 21
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.10.
+Aplicação desenvolvida com **Angular 21** utilizando arquitetura modular, componentes standalone e boas práticas modernas de front-end.
 
-## Development server
+O projeto simula um dashboard financeiro com exibição de:
 
-To start a local development server, run:
+- saldo total
+- lucro mensal
+- tabela de investimentos
+
+---
+
+# 🚀 Tecnologias utilizadas
+
+- Angular 21
+- TypeScript
+- RxJS
+- SCSS
+- Standalone Components
+- Arquitetura Feature-Based
+
+---
+
+# 🧠 Arquitetura aplicada
+
+O projeto foi organizado seguindo o padrão:
+
+## Feature-First Architecture
+
+Separando responsabilidades em:
+
+- Components
+- Pages
+- Services
+- Models
+
+Essa estrutura melhora:
+
+- Escalabilidade
+- Reutilização
+- Organização
+- Manutenção
+- Legibilidade do código
+
+---
+
+# ⚡ Componentes Standalone
+
+Toda a aplicação foi construída utilizando:
+
+```ts
+standalone: true;
+```
+
+Eliminando dependência de módulos tradicionais (`NgModules`) e seguindo o padrão moderno recomendado pelo Angular.
+
+---
+
+# 📦 Mock de dados
+
+Os dados estão sendo simulados localmente através do RxJS:
+
+```ts
+of([...])
+```
+
+Isso permite:
+
+- desenvolvimento desacoplado de backend
+- testes rápidos
+- previsibilidade
+- demonstração de arquitetura
+
+---
+
+# 📂 Estrutura do projeto
+
+```bash
+src/
+ └── app/
+      └── features/
+           └── dashboards/
+                ├── components/
+                │    ├── balance-card/
+                │    ├── profit-card/
+                │    └── investments-table/
+                │
+                ├── models/
+                │    ├── wallet.model.ts
+                │    └── investment.model.ts
+                │
+                ├── pages/
+                │    └── dashboard-page/
+                │
+                └── services/
+                     └── dashboard.service.ts
+```
+
+---
+
+# 🖥️ Preview do Projeto
+
+<div align="center">
+
+<img
+  src="https://i.ibb.co/vCtsdjsq/dashboard.png"
+  width="1000"
+/>
+
+</div>
+
+---
+
+# ▶️ Como executar o projeto
+
+## Instalar dependências
+
+```bash
+npm install
+```
+
+---
+
+## Executar aplicação
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Acessar no navegador
 
 ```bash
-ng generate component component-name
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+# 🎨 Layout
 
-## Building
+O dashboard possui:
 
-To build the project run:
+- tema dark
+- responsividade básica
+- cards financeiros
+- tabela estilizada
+- design clean focado em legibilidade
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+# 🔮 Melhorias futuras
 
-## Running unit tests
+- Integração com API real
+- Loading states
+- Tratamento global de erros
+- State Management
+- Testes unitários
+- Responsividade mobile
+- Autenticação
+- Gráficos financeiros
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+---
 
-```bash
-ng test
-```
+# 🎯 Objetivo do projeto
 
-## Running end-to-end tests
+Este projeto foi desenvolvido com foco em:
 
-For end-to-end (e2e) testing, run:
+- boas práticas Angular
+- componentização
+- arquitetura escalável
+- organização de código
+- demonstração técnica para processos seletivos
 
-```bash
-ng e2e
-```
+---
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+# 👨‍💻 Autor
 
-## Additional Resources
+## Ramon Santos
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Desenvolvedor Flutter Sênior

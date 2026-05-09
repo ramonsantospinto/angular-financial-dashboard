@@ -1,0 +1,11 @@
+<div class="dashboard">
+  <h1>Dashboard Financeiro</h1>
+
+  <div class="cards">
+    <app-balance-card *ngIf="wallet" [balance]="wallet.balance"> </app-balance-card>
+
+    <app-profit-card *ngIf="wallet" [profit]="wallet.monthlyProfit"> </app-profit-card>
+  </div>
+
+  <app-investments-table [investments]="investments"> </app-investments-table>
+</div>

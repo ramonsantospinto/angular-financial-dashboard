@@ -1,0 +1,19 @@
+<table>
+  <thead>
+    <tr>
+      <th>Ativo</th>
+      <th>Valor</th>
+      <th>Lucro</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let item of investments">
+      <td>{{ item.name }}</td>
+
+      <td>{{ item.value | currency: 'BRL' }}</td>
+
+      <td>{{ item.profit }}%</td>
+    </tr>
+  </tbody>
+</table>

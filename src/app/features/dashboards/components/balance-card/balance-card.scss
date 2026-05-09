@@ -1,0 +1,31 @@
+.card {
+  background: #131c2b;
+
+  border-radius: 20px;
+
+  padding: 30px;
+
+  min-height: 140px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+p {
+  font-size: 18px;
+
+  color: #9ca3af;
+
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 52px;
+
+  font-weight: bold;
+
+  color: white;
+}
